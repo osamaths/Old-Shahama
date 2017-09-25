@@ -1,0 +1,28 @@
+.addMovieForm {
+	margin: 0;
+}
+
+div.jumbotron img{
+	float: left;
+}
+div.jumbotron {
+	background-color: rgba(.7, .7, .7, .7);
+}
+#mainContainer {
+	padding: 0 100px;
+	background-color: rgba(.7, .7, .7, .7);
+}
+body {
+	background: url('Images/BG.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+ul.dropdown-menu li a:hover{
+	background-color: #333;
+	color: white;
+}
+h2 {
+	color: white;
+}
