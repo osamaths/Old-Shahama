@@ -4,7 +4,8 @@
   "description": "movies watch list app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -23,13 +24,17 @@
   },
   "homepage": "https://github.com/osamaths/Shahama#readme",
   "dependencies": {
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "express": "^4.15.5",
     "fs": "0.0.1-security",
+    "mongoose": "^4.11.13",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0"
   }
 }
